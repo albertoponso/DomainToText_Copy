@@ -1,4 +1,4 @@
-import resnet18
+import DomainToText_Copy.model.resnet18
 
 
 def Generator():
