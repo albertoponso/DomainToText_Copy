@@ -1,6 +1,6 @@
 import torch.nn as nn
-from model.layers.img_encoder import ResnetEncoder
-from model.layers.sentence_encoder import make_encoder
+from DomainToText_Copy.model.layers.img_encoder import ResnetEncoder
+from DomainToText_Copy.model.layers.sentence_encoder import make_encoder
 
 
 class TripletMatch(nn.Module):
